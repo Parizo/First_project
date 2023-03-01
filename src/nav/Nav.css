@@ -1,0 +1,82 @@
+.logo {
+    height: 92px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*noriu kad prisiklijuotu*/
+    height: 96px;
+    padding: 0 48px;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.main-nav-link1:link,
+.main-nav-link2:link,
+.main-nav-link3:link,
+.main-nav-link4:link,
+.main-nav-link1:visited,
+.main-nav-link2:visited,
+.main-nav-link3:visited,
+.main-nav-link4:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.3s;
+
+}
+
+.main-nav-link1:hover,
+.main-nav-link2:hover,
+.main-nav-link3:hover,
+.main-nav-link4:hover,
+.main-nav-link1:active,
+.main-nav-link2:active,
+.main-nav-link3:active,
+.main-nav-link4:active {
+    color: #59abcc;
+}
+
+.main-nav-link5:link,
+.main-nav-link5:visited {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #6fd6ff;
+    /* #59abcc; */
+    transition: all 1s
+}
+
+.main-nav-link5:hover,
+.main-nav-link5:active {
+    background-color: #59abcc;
+}
+
+/*sticky navigation*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.911)
+    
+}
